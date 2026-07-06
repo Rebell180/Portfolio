@@ -1,0 +1,28 @@
+{
+    "common": {
+        "companyName": "Marcel Buchmann"
+    },
+    "settings": {
+        "languageSet": "Select Language:"
+    },
+    "commonLinks": {
+        "legalnotice": "legal notice",
+        "dsgvo": "DSGVO",
+        "privacypolicy": "privacy policy"
+    },
+    "nav": {
+        "home": "Home",
+        "projects": "Projects",
+        "contact": "Contact",
+        "legal": "Legal Notice",
+        "privacy": "Privacy Policy"
+    },
+    "pages": {
+        "home": {
+            "hero": {
+                "sub1": "Modern web applications for your digital footprint.",
+                "sub2": "I develop custom software, web applications, and digital solutions, from the initial idea to deployment."
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "common": {
+        "companyName": "Marcel Buchmann"
+    },
+    "settings": {
+        "languageSet": "Sprache wählen:"
+    },
+    "commonLinks": {
+        "legalnotice": "Impressum",
+        "dsgvo": "DSGVO",
+        "privacypolicy": "Datenschutzerklärung"
+    },
+    "nav": {
+        "home": "Startseite",
+        "projects": "Projekte",
+        "contact": "Kontakt",
+        "legal": "Impressum",
+        "privacy": "Datenschutzerklärung"
+    },
+    "pages": {
+        "home": {
+            "hero": {
+                "sub1": "Moderne Webanwendungen für ihren digitalen Fingerabdruck.",
+                "sub2": "Ich entwickle maßgeschneiderte Software, Webanwendungen und digitale Lösungen, von der ersten Idee bis zum produktiven Einsatz."
+            }
+        }
+    }
+}

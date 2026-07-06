@@ -1,0 +1,28 @@
+{
+    "common": {
+        "companyName": "Marcel Buchmann"
+    },
+    "settings": {
+        "languageSet": "Dil seçin:"
+    },
+    "commonLinks": {
+        "legalnotice": "Künye",
+        "dsgvo": "DSGVO",
+        "privacypolicy": "Gizlilik Politikası"
+    },
+    "nav": {
+        "home": "Ev",
+        "projects": "Projeler",
+        "contact": "temas etmek",
+        "legal": "Künye",
+        "privacy": "Gizlilik Politikası"
+    },
+    "pages": {
+        "home": {
+            "hero": {
+                "sub1": "Dijital ayak iziniz için modern web uygulamaları.",
+                "sub2": "İlk fikirden canlıya alma aşamasına kadar özel yazılımlar, web uygulamaları ve dijital çözümler geliştiriyorum."
+            }
+        }
+    }
+}

@@ -1,0 +1,111 @@
+/* 
+ * Animations SCSS file
+ * 
+ * Place all animation-related styles and keyframes here.
+ * 
+ * Added standard animations: slideIn, slideOut, fadeIn, fadeOut,
+ * growIn (from inside), growOut (exit).
+ */
+
+$animation-duration: 0.3s;
+
+/* ---------- Slide Animations ---------- */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+/* ---------- Fade Animations ---------- */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+/* ---------- Grow (Scale) Animations ---------- */
+@keyframes growIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes growOut {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+}
+
+/* ---------- Ready‑to‑use Classes ---------- */
+.slide-in {
+    animation: slideIn 0.5s ease-out forwards;
+}
+
+.slide-out {
+    animation: slideOut 0.5s ease-out forwards;
+}
+
+.fade-in {
+    animation: fadeIn 0.4s ease-out forwards;
+}
+
+.fade-out {
+    animation: fadeOut 0.4s ease-out forwards;
+}
+
+.grow-in {
+    animation: growIn 0.6s ease-out forwards;
+}
+
+.grow-out {
+    animation: growOut 0.6s ease-out forwards;
+}
+
+/* ---------- Utility Helper ---------- */
+@function animate($property, $duration: $animation-duration) {
+    @return unquote("#{$property}: #{$duration}");
+}

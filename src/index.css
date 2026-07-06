@@ -1,0 +1,20 @@
+@use 'styles/fonts';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    position: relative;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%; /* 16px * 62,5% = 10px = 1rem */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(16px, 1dvw, 30px);
+}

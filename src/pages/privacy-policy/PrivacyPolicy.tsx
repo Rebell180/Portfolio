@@ -1,0 +1,10 @@
+import './privacy-policy.scss';
+
+export default function PrivacyPolicy() {
+    return (
+        <section>
+            <h1>Moin, ich bin ein Softwareentwickler</h1>
+            <p>Willkommen auf meiner modernen Portfolio-Seite.</p>
+        </section>
+    );
+}

@@ -1,0 +1,20 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+    .nav-item {
+        align-self: center;
+        font-size: 16px;
+    }
+    
+    &.mobile {
+        flex-direction: column;
+    }
+
+    &.desktop {
+        flex-direction: row;
+    }
+}
