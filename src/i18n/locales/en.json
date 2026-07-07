@@ -22,6 +22,32 @@
             "hero": {
                 "sub1": "Modern web applications for your digital footprint.",
                 "sub2": "I develop custom software, web applications, and digital solutions, from the initial idea to deployment."
+            },
+            "trust": {
+                "headline": "Use time efficiently",
+                "subtext": "When working with me, we move through several stages of the development process together to deliver the exact result you truly need. No costly extras, no unpleasant surprises. Just clear, accessible communication. Even in an era where automation and artificial intelligence are becoming essential, it is still the human element that breathes life into your vision. I want to help you achieve your goals.",
+                "schedule": {
+                    "step1": {
+                        "headline": "Requirements analysis",
+                        "subtext": "We will sit down together and, as a first step, look at what you have in mind and what you want to achieve. We will analyze in detail the specific task I will carry out for you."
+                    },
+                    "step2": {
+                        "headline": "Planning phase",
+                        "subtext": "Once we have organized your wishes and ideas, we will focus on implementation options, technologies, the design guide, and more. By the end, we should have a clear roadmap together for achieving your goal."
+                    },
+                    "step3": {
+                        "headline": "Implementation phase",
+                        "subtext": "At this stage, unless agreed otherwise, you provide the content for your project while I carry out my part of the development."
+                    },
+                    "step4": {
+                        "headline": "Review & Feedback",
+                        "subtext": "Once the implementation is complete, we will review the overall picture together and discuss your satisfaction."
+                    },
+                    "step5": {
+                        "headline": "Further cooperation",
+                        "subtext": "Following a successful collaboration, let’s talk about the future. Do you need long-term support or training, or do you already have plans for the next steps you want to realize? Let’s discuss it."
+                    }
+                }
             }
         }
     }

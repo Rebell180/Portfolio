@@ -98,45 +98,48 @@
                 padding: 50px 0;
 
                 li {
+                    width: 100%;
                     list-style: none;
                     position: relative;
                     width: 6px;
-                    margin: 0 15dvw;
+                    margin: 0 10dvw;
                     padding-top: 50px;
-                    background: rgba(0, 0, 255, 0.6);
+                    background: rgba(0, 0, 220, 0.6);
 
                     div {
                         position: relative;
                         bottom: 0;
-                        width: 70dvw;
+                        width: 55vw;
                         max-width: 750px;
                         left: 40px;
-                        padding: 1rem;
-                        background: whitesmoke;
+                        padding: 3rem;
+                        background: transparent;
                         transition: all 0.5s ease-in-out;
-                        border-radius: 5px;
+                        border-radius: 8px;
                         box-shadow:
-                            2px 2px 2px rgba(0, 0, 255, 0.6),
-                            4px 4px 4px rgba(0, 0, 255, 0.4),
-                            6px 6px 6px rgba(0, 0, 255, 0.3),
-                            6px 6px 5px rgba(0, 0, 255, 0.2);
+                            2px 2px 2px 2px rgba(0, 0, 0, 0.6),
+                            4px 4px 4px 4px rgba(0, 0, 160, 0.4),
+                            6px 6px 6px 6px rgba(0, 0, 160, 0.3),
+                            6px 6px 6px 6px rgba(0, 0, 160, 0.2),
+                            0px 0px 0px 2px rgba(0, 0, 160, 0.4);
+
 
                         &:before {
                             left: -15px;
                             border-width: 8px 16px 8px 0;
-                            border-color: transparent #fff;
-                        }
-
-                        @media(max-width: 900px) {
-                            // width: 320px;
+                            border-color: transparent rgba(0, 0, 160, 1);
                         }
                         
                         h3 {
-                            
+                            width: 100%;
+                            color: whitesmoke;
+                            text-shadow: 0 0 8px rgba(0, 200, 255, 0.5);
+                            padding-bottom: 2rem;
                         }
                         
                         p {
-                            
+                            width: 100%;
+                            color: whitesmoke;
                         }
                     }
 

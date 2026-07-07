@@ -22,6 +22,32 @@
             "hero": {
                 "sub1": "Moderne Webanwendungen für ihren digitalen Fingerabdruck.",
                 "sub2": "Ich entwickle maßgeschneiderte Software, Webanwendungen und digitale Lösungen, von der ersten Idee bis zum produktiven Einsatz."
+            },
+            "trust": {
+                "headline": "Zeit effizient nutzen",
+                "subtext": "Während der Zusammenarbeit mit mir durchlaufen wir gemeinsam mehrere Stufen des Entwicklungsprozesses, um Ihnen am Ende genau das Ergebnis zu liefern, welches Sie wirklich benötigen. Keine teuren Extras, keine negativen Überraschungen, klare und verfügbare Kommunikation. Auch in einer Zeit, in der Automatisierung und künstliche Intelligenz essentiell werden, ist es nach wie vor der Mensch, der Ihrer Fantasie Leben einhaucht. Ich möchte Ihnen dabei helfen, Ihre Ziele zu erreichen.",
+                "schedule": {
+                    "step1": {
+                        "headline": "Anforderungsanalyse",
+                        "subtext": "Wir setzen uns zusammen und schauen im ersten Schritt, was Sie sich vorgestellt haben und was Sie damit erreichen möchten."
+                    },
+                    "step2": {
+                        "headline": "Planungsphase",
+                        "subtext": "Nach dem wir die Wünsche und Vorstellungen geordnet haben, beschäftigen wir uns mit den Umsetzungsmöglichkeiten, Technologien, Design Guide und mehr. Im Anschluss sollten wir gemeinsam einen klaren Fahrplan haben, um Ihr Ziel zu erreichen."
+                    },
+                    "step3": {
+                        "headline": "Implementierungsphase",
+                        "subtext": "An diesem Punkt liefern Sie mir, sofern nciht anders vereinbart den Inhalt Ihres Projektes, während ich meinen Teil in der Entwicklung erfülle."
+                    },
+                    "step4": {
+                        "headline": "Review & Feedback",
+                        "subtext": "Wenn die Implementierung abgeschlossen ist, wird das Gesamtbild gemeinsam geprüft und wir reden über Ihre Zufriedenheit."
+                    },
+                    "step5": {
+                        "headline": "Weitere Zusammenarbeit",
+                        "subtext": "Nach einer erfolgreichen Zusammenarbeit, sprechen wir über die Zukunft. Benötigen Sie langfristigen Support, Schulung oder haben Sie bereits die nächsten Pläne, welche Sie verwirklichen wollen? Lassen Sie uns sprechen."
+                    }
+                }
             }
         }
     }

@@ -22,6 +22,32 @@
             "hero": {
                 "sub1": "Dijital ayak iziniz için modern web uygulamaları.",
                 "sub2": "İlk fikirden canlıya alma aşamasına kadar özel yazılımlar, web uygulamaları ve dijital çözümler geliştiriyorum."
+            },
+            "trust": {
+                "headline": "Zamanı verimli kullanın.",
+                "subtext": "Benimle çalıştığınızda, gerçekten ihtiyaç duyduğunuz o tam sonucu elde etmek için geliştirme sürecinin çeşitli aşamalarını birlikte katederiz. Maliyetli ekstralar veya tatsız sürprizler yok; yalnızca açık ve erişilebilir bir iletişim var. Otomasyon ve yapay zekanın vazgeçilmez hale geldiği bir çağda bile, vizyonunuza hayat veren unsur hâlâ insan faktörüdür. Hedeflerinize ulaşmanıza yardımcı olmak istiyorum.",
+                "schedule": {
+                    "step1": {
+                        "headline": "Gereksinim analizi",
+                        "subtext": "Birlikte oturacağız ve ilk adım olarak, aklınızdakileri ve neler başarmak istediğinizi ele alacağız."
+                    },
+                    "step2": {
+                        "headline": "Planlama aşaması",
+                        "subtext": "İsteklerinizi ve fikirlerinizi düzenledikten sonra; uygulama seçenekleri, teknolojiler, tasarım rehberi ve daha fazlası üzerinde duracağız. Sürecin sonunda, hedefinize ulaşmak adına birlikte net bir yol haritası oluşturmuş olacağız."
+                    },
+                    "step3": {
+                        "headline": "Uygulama aşaması",
+                        "subtext": "Bu aşamada, aksi kararlaştırılmadıkça, ben geliştirme sürecindeki üzerime düşen kısmı yürütürken siz projenizin içeriğini sağlarsınız."
+                    },
+                    "step4": {
+                        "headline": "İnceleme ve Geri Bildirim",
+                        "subtext": "Uygulama tamamlandığında, genel tabloyu birlikte gözden geçirecek ve memnuniyetinizi değerlendireceğiz."
+                    },
+                    "step5": {
+                        "headline": "Daha fazla iş birliği",
+                        "subtext": "Başarılı bir iş birliğinin ardından, gelin gelecekten bahsedelim. Uzun vadeli desteğe veya eğitime mi ihtiyacınız var, yoksa hayata geçirmek istediğiniz sonraki adımlara dair halihazırda planlarınız mı mevcut? Gelin, bunları konuşalım."
+                    }
+                }
             }
         }
     }

@@ -5,16 +5,13 @@ export default function LPOffer() {
     const { t } = useTranslation();
 
     return (
-        <section className='trust-section'>
-            <div className='trust-content'>
-                <div className='trust-text-container'>
-                    <h1>Zeit effizient nutzen</h1>
-                    <p>
-                        In einer gemeinsamen Zusammenarbeit mit mir durchlaufen wir gemeinsam mehrere Stufen, um Ihnen das Ergebnis zu liefern, welches Sie wirklich benötigen. Keine teuren Extras, keine negativen Überraschungen, klare und verfügbare Kommunikation. Auch in einer Zeit, in der Automatisierung essentiell wird, ist es nach wie vor der Mensch, der Ihrer Fantasie Leben einhaucht.
-                        {/* {t("pages.home.hero.sub1")}<br></br>{t("pages.home.hero.sub2")} */}
-                    </p>
+        <section className='offer-section'>
+            <div className='offer-content'>
+                <div className='offer-text-container'>
+                    <h1>Angebote</h1>
+                    <p>Wenn Sie noch unsicher sind, ob Sie bei mir richtig gelandet sind, dann empfehle ich Ihnen einen Blick auf folgende Leistungen zu werfen und sollte die richtige Kategorie dabei sein, dann schreiben Sie mir einfach. Wir finden dann zeitnahe einen Termin für ein Erstgespräch.</p>
                 </div>
-                <div className='trust-schedule-content'>
+                <div className='offer-schedule-content'>
 
                 </div>
             </div>
