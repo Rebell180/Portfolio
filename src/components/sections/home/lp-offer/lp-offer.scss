@@ -40,6 +40,64 @@
         margin: 7dvw 4dvw;
         border-radius: 16px;
         
-        
+        .offer-text-container {
+            width: 100%;
+            padding: 4rem 5dvw 8rem 5dvw;
+            
+            
+            h2 {
+                font-size: clamp(26px, 5dvw, 96px);
+                color: whitesmoke;
+                text-shadow: 0 0 8px rgba(0, 200, 255, 0.5);
+            }
+
+            p {
+                font-size: clamp(16px, 2dvw, 22px);
+                color: whitesmoke;
+                margin-top: 2rem;
+                width: 100%;
+            }
+        }
+
+        .offers-container {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-auto-rows: 1fr; 
+            gap: 16px;
+            gap: 5rem;
+
+            .offer-article {
+                padding: 30px;
+                border-radius: 16px;
+                display: flex;
+                flex-direction: column;
+
+                box-shadow:
+                    0 0 5px rgba(196, 163, 90, 0.5),
+                    0 0 10px rgba(196, 196, 90, 0.4),
+                    0 0 20px rgba(196, 163, 90, 0.3),
+                    0 0 30px rgba(157, 163, 90, 0.2);
+
+
+                background-color: rgba(196, 163, 90, 0.2);
+                color: white;
+
+                .offer-headline {
+                    font-size: clamp(18px, 3dvw, 36px);
+                    text-shadow: 0 0 8px rgba(100, 100, 100, 0.5);
+                    color: rgba(255, 255, 0, 0.8);
+                    padding-bottom: 2rem;
+                }
+
+                .offer-subtext {
+                    width: 100%;
+                    font-size: clamp(16px, 2dvw, 20px);
+                    color: whitesmoke;
+                    margin-top: 2rem;
+                }
+            }
         }
     }
+}

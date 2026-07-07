@@ -8,7 +8,7 @@ export default function LPTrust() {
         <section className='trust-section'>
             <div className='trust-content'>
                 <div className='trust-text-container'>
-                    <h1>{t("pages.home.trust.headline")}</h1>
+                    <h2>{t("pages.home.trust.headline")}</h2>
                     <p>{t("pages.home.trust.subtext")}</p>
                 </div>
                 <div className='trust-schedule-content'>

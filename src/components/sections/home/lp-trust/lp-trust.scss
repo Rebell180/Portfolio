@@ -45,16 +45,9 @@
             padding: 4rem 5dvw;
             
             
-            h1 {
+            h2 {
                 font-size: clamp(26px, 5dvw, 96px);
                 color: whitesmoke;
-                text-shadow: 0 0 8px rgba(0, 200, 255, 0.5);
-            }
-
-            h2 {
-                font-size: clamp(18px, 3dvw, 36px);
-                color: whitesmoke;
-                margin-top: 2rem;
                 text-shadow: 0 0 8px rgba(0, 200, 255, 0.5);
             }
 
@@ -63,30 +56,6 @@
                 color: whitesmoke;
                 margin-top: 2rem;
                 width: 100%;
-            }
-        }
-        
-        .hero-image-container {
-            width: 280px;
-            height: 360px;
-            display: flex;
-            justify-content: center;
-            align-items: end;
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            z-index: 0;
-            
-            @media (max-width: 590px) {
-                width: 100%;
-                position: relative;
-                justify-content: end;
-            }
-
-            img {
-                width: 280px;
-                height: 360px;
-                border-bottom-right-radius: 16px;
             }
         }
 
