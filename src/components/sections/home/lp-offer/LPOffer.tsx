@@ -14,7 +14,6 @@ export default function LPOffer() {
                 </div>
 
                 <div className='offers-container'>
-                    {/* c4a35a - okker - box-shadow */}
                     <article className='offer-article offer1'>
                         <h3 className='offer-headline'>Software</h3>
                         <p className='offer-subtext'>Maßgeschneiderte Softwarelösungen für Ihre Kernprozesse.Standardsoftware stößt oft an Grenzen, wo Ihre echten Wettbewerbsvorteile beginnen. Ich entwickle individuelle Softwarelösungen, die sich exakt an Ihre bestehenden Arbeitsabläufe anpassen – nicht umgekehrt. Von der Automatisierung wiederkehrender Aufgaben bis hin zur vollständigen Digitalisierung lokaler Prozesse erhalten Sie eine performante, zukunftssichere und wartungsarme IT-Infrastruktur.</p>
@@ -37,7 +36,7 @@ export default function LPOffer() {
 
                     <article className='offer-article offer4'>
                         <h3 className='offer-headline'>Beratung</h3>
-                        <p className='offer-subtext'>Strategische Technologieberatung auf Augenhöhe.Vor dem ersten Code-Baustein steht die richtige Strategie. Ich analysiere Ihre bestehenden Prozesse, identifiziere Automatisierungspotenziale und berate Sie herstellerunabhängig zur optimalen Technologie-Architektur. Gemeinsam definieren wir den effizientesten Weg für Ihr Digitalisierungsvorhaben, um Fehlinvestitionen zu vermeiden und eine nachhaltige, zukunftssichere Basis für Ihr Wachstum zu schaffen.</p>
+                        <p className='offer-subtext'>Strategische Technologieberatung und agile Begleitung.Vor dem ersten Code-Baustein steht die richtige Strategie. Ich analysiere Ihre bestehenden Prozesse, identifiziere Automatisierungspotenziale und berate Sie herstellerunabhängig zur optimalen Technologie-Architektur. Zudem begleite ich Ihr Unternehmen bei den ersten Schritten mit Scrum, um agile Entwicklungsmethoden nachhaltig in Ihren Teams zu verankern. So vermeiden Sie Fehlinvestitionen und schaffen eine zukunftssichere Basis für Ihr Wachstum.</p>
                     </article>
                 </div>
 

@@ -22,7 +22,7 @@
         background-size: cover;
         background-position: center;
         z-index: 0;
-        background-color: rgba(113,200,240,0.1);
+        background-color: rgba(113,200,240,0.2);
     }
 
     .offer-content {
@@ -56,6 +56,7 @@
                 color: whitesmoke;
                 margin-top: 2rem;
                 width: 100%;
+                font-weight: 800;
             }
         }
 
@@ -80,22 +81,29 @@
                     0 0 20px rgba(196, 163, 90, 0.3),
                     0 0 30px rgba(157, 163, 90, 0.2);
 
-
-                background-color: rgba(196, 163, 90, 0.2);
-                color: white;
+                // background-color: rgba(196, 163, 90, 0.1);
+                background-color: rgba(50, 50, 50, 0.4);
+                color: whitesmoke;
 
                 .offer-headline {
-                    font-size: clamp(18px, 3dvw, 36px);
+                    font-size: clamp(20px, 3dvw, 28px);
                     text-shadow: 0 0 8px rgba(100, 100, 100, 0.5);
                     color: rgba(255, 255, 0, 0.8);
                     padding-bottom: 2rem;
+                    font-weight: 800;
                 }
 
                 .offer-subtext {
                     width: 100%;
-                    font-size: clamp(16px, 2dvw, 20px);
+                    font-size: 16px;
                     color: whitesmoke;
                     margin-top: 2rem;
+                    font-weight: 800;
+                }
+
+                &:hover {
+                    transform: scale(1.1);
+                    transition: 0.5s ease-in-out;
                 }
             }
         }
