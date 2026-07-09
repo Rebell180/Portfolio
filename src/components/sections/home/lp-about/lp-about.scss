@@ -1,0 +1,103 @@
+.about-section {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    min-height: 70dvh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow:
+        0 0 5px rgba(0, 255, 255, 0.5),
+        0 0 10px rgba(0, 255, 255, 0.4),
+        0 0 20px rgba(0, 255, 255, 0.3),
+        0 0 30px rgba(0, 255, 255, 0.2);
+    z-index: 18;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-size: cover;
+        background-position: center;
+        z-index: 0;
+        background-color: rgba(113,200,240,0.2);
+    }
+
+    .about-content {
+        width: 100%;
+        max-width: 1248px;
+        height: auto;
+        min-height: 500px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(50, 50, 50, 0.4);
+        background-color: transparent;
+        margin: 7dvw 4dvw;
+        border-radius: 16px;
+        
+        .about-text-container {
+            width: 100%;
+            padding: 4rem 5dvw 8rem 5dvw;
+            
+            
+            h2 {
+                font-size: clamp(26px, 5dvw, 96px);
+                color: whitesmoke;
+                text-shadow: 0 0 8px rgba(0, 200, 255, 0.5);
+            }
+
+            p {
+                font-size: clamp(16px, 2dvw, 22px);
+                color: whitesmoke;
+                margin-top: 2rem;
+                width: 100%;
+            }
+
+            .about-link-group {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                max-width: 310px;
+                gap: 2rem;
+                
+                .link-btn {
+                    font-size: clamp(16px, 2dvw, 22px);
+                    padding: 1rem 2rem;
+                    border-radius: 16px;
+                    background: rgba(220,140,0,0.5);
+                    color: whitesmoke;
+                    // border: 2px solid grey;
+
+
+
+
+                    &:hover {
+                        transition: border-color 0.2s ease;
+                        box-shadow:
+                    0 0 4px rgba(196, 163, 90, 0.5),
+                    0 0 6px rgba(196, 196, 90, 0.4),
+                    0 0 8px rgba(196, 163, 90, 0.3),
+                    0 0 10px rgba(157, 163, 90, 0.2);
+
+                    }
+                }
+                
+                .link-info-btn {
+                    margin-right: 4px;
+                    white-space: nowrap;
+                    background: transparent;
+                    border: 1px solid rgba(50, 50, 50, 0.8);
+                    
+                }
+            }
+        }
+    }
+}

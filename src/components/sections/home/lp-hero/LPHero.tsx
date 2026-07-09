@@ -10,7 +10,7 @@ export default function LPHero() {
                 <div className='hero-text-container'>
                     <h1>Full Stack </h1>
                     <h1>Software Engineer</h1>
-                    <h2>Software • Web • App</h2>
+                    <h2>Software • Web • API</h2>
                     <p>{t("pages.home.hero.sub1")}<br></br>{t("pages.home.hero.sub2")}</p>
                 </div>
                 <div className='hero-image-container'>

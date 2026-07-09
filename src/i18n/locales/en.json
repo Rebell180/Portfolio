@@ -12,6 +12,7 @@
     },
     "nav": {
         "home": "Home",
+        "about": "About Me",
         "projects": "Projects",
         "contact": "Contact",
         "legal": "Legal Notice",
@@ -23,30 +24,82 @@
                 "sub1": "Modern web applications for your digital footprint.",
                 "sub2": "I develop custom software, web applications, and digital solutions, from the initial idea to deployment."
             },
+            "about": {
+                "headline": "About Me",
+                "part1": "I am Marcel Buchmann (36), a full-stack software engineer.",
+                "part2": "Since 2018, I have worked in various software development roles, gaining extensive experience along the way. I combine this practical expertise with an insatiable thirst for knowledge. By leveraging autonomous AI systems in my workflow, I have significantly boosted both my productivity and success rates. Since 2026, I have been operating as an independent Full Stack Software Engineer, using my expertise to guide clients through their digital transformation journeys. From sophisticated frontends and complex backends to adapting to multiple technology stacks, I have successfully met every challenge I’ve encountered. Agile development and a client-focused approach are second nature to me. Through conscientious work, I deliver high-quality results designed to maximize your success.",
+                "part3": "If you are currently looking for a solution, simply contact me via the contact form.",
+                "info": "More information"
+            },
             "trust": {
                 "headline": "Use time efficiently",
                 "subtext": "When working with me, we move through several stages of the development process together to deliver the exact result you truly need. No costly extras, no unpleasant surprises. Just clear, accessible communication. Even in an era where automation and artificial intelligence are becoming essential, it is still the human element that breathes life into your vision. I want to help you achieve your goals.",
                 "schedule": {
                     "step1": {
                         "headline": "Requirements analysis",
-                        "subtext": "We will sit down together and, as a first step, look at what you have in mind and what you want to achieve. We will analyze in detail the specific task I will carry out for you."
+                        "subtext": "We will sit down together and, as a first step, look at what you have in mind and what you want to achieve. We will analyze in detail the specific task I will carry out for you.",
+                        "point1": "We discuss goals, processes, and requirements.",
+                        "point2": "I first gain an understanding of your company before we develop solutions."
                     },
                     "step2": {
                         "headline": "Planning phase",
-                        "subtext": "Once we have organized your wishes and ideas, we will focus on implementation options, technologies, the design guide, and more. By the end, we should have a clear roadmap together for achieving your goal."
+                        "subtext": "Once we have organized your wishes and ideas, we will focus on implementation options, technologies, the design guide, and more. By the end, we should have a clear roadmap together for achieving your goal.",
+                        "point1": "Design",
+                        "point2": "Processes",
+                        "point3": "User Experience",
+                        "point4": "Technical planning"
                     },
                     "step3": {
                         "headline": "Implementation phase",
-                        "subtext": "At this stage, unless agreed otherwise, you provide the content for your project while I carry out my part of the development."
+                        "subtext": "At this stage, unless agreed otherwise, you provide the content for your project while I carry out my part of the development.",
+                        "point1": "Intermediate scores",
+                        "point2": "Early feedback",
+                        "point3": "Short communication channels"
                     },
                     "step4": {
                         "headline": "Review & Feedback",
-                        "subtext": "Once the implementation is complete, we will review the overall picture together and discuss your satisfaction."
+                        "subtext": "Once the implementation is complete, we will review the overall picture together and discuss your satisfaction.",
+                        "point1": "Two rounds of feedback included",
+                        "point2": "Transparently renegotiate additional content."
                     },
                     "step5": {
                         "headline": "Further cooperation",
-                        "subtext": "Following a successful collaboration, let’s talk about the future. Do you need long-term support or training, or do you already have plans for the next steps you want to realize? Let’s discuss it."
+                        "subtext": "Following a successful collaboration, let’s talk about the future. Do you need long-term support or training, or do you already have plans for the next steps you want to realize? Let’s discuss it.",
+                        "point1": "Deployment",
+                        "point2": "Tests",
+                        "point3": "acceptance",
+                        "point4": "Briefing"
+                    },
+                    "step6": {
+                        "headline": "Review & Feedback",
+                        "subtext": "Once the implementation is complete, we will review the overall picture together and discuss your satisfaction.",
+                        "point1": "I will remain your point of contact even after the project.",
+                        "point2": "Let's talk about support solutions."
                     }
+                }
+            },
+            "offer": {
+                "headline": "Offers",
+                "subtext": "If you are still unsure whether I am the right person for you, I recommend taking a look at the services listed below; if you find a suitable category, simply send me a message. We can then promptly arrange an appointment for an initial consultation.",
+                "offer1": {
+                    "headline": "Software",
+                    "subtext": "Tailor-made software solutions for your core processes. Standard software often reaches its limits right where your true competitive advantages begin. I develop custom software solutions that adapt precisely to your existing workflows—not the other way around. From automating repetitive tasks to the complete digitization of local processes, you gain a high-performance, future-proof, and low-maintenance IT infrastructure."
+                },
+                "offer2": {
+                    "headline": "SPAs",
+                    "subtext": "Ultra-fast web applications with a native user experience. Modern web applications must respond without perceptible loading times. Designed as Single Page Applications (SPAs), my solutions offer a fluid, intuitive user experience directly in the browser—comparable to an installed desktop app. They are ideal for complex dashboards, interactive tools, or internal management systems where maximum efficiency and an outstanding user experience are paramount."
+                },
+                "offer3": {
+                    "headline": "WebApps",
+                    "subtext": "Platform-independent web apps for maximum flexibility. Reach your users and employees on any device—without the constraints of app stores. I design and develop robust full-stack web applications that run in the browser yet deliver the performance of traditional software. Thanks to modern architectures, these web apps are fully scalable, securely encrypted, and seamlessly integrated into your digital ecosystem."
+                },
+                "offer4": {
+                    "headline": "Data migration",
+                    "subtext": "Secure data integration and lossless system migrations. Successful digitalization relies on consistent data flows. I ensure the seamless interconnection of your systems via high-performance interfaces (APIs) or handle the complete, structured migration of your legacy data to new systems. My focus is on absolute data security, integrity, and minimal downtime, ensuring your processes continue to run smoothly throughout the transition."
+                },
+                "offer5": {
+                    "headline": "Advice",
+                    "subtext": "Strategic technology consulting and agile guidance. The right strategy comes before the first line of code. I analyze your existing processes, identify opportunities for automation, and provide vendor-neutral advice on the optimal technology architecture. I also guide your company through its initial steps with Scrum to firmly embed agile development methods within your teams. This allows you to avoid bad investments and build a future-proof foundation for growth."
                 }
             }
         }

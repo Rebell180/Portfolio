@@ -1,3 +1,7 @@
+// Konfiguration für den Regen
+$rain-color: rgba(255, 255, 255, 0.3); // Farbe und Transparenz der Striche
+$rain-count: 40; // Anzahl der Strich-Gruppen
+
 .trust-section {
     background-color: black;
     width: 100%;
@@ -19,11 +23,22 @@
         content: "";
         position: absolute;
         inset: 0;
-        background-size: cover;
-        background-position: center;
+        background-image: url("/assets/images/lptrust/rain_bg.png");
+        background-size: repeat-y;
+        background-position: center ;
         z-index: 0;
-        background-color: rgba(113,200,240,0.1);
+        // background-color: rgba(113,200,240,0.1);
     }
+
+    // &::before {
+        // content: "";
+        // position: absolute;
+        // inset: 0;
+        // background-size: cover;
+        // background-position: center;
+        // z-index: 0;
+        // background-color: rgba(113,200,240,0.1);
+    // }
 
     .trust-content {
         width: 100%;
@@ -153,4 +168,5 @@
             }
         }
     }
+
 }

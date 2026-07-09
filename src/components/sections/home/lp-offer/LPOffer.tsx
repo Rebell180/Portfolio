@@ -7,39 +7,37 @@ export default function LPOffer() {
     return (
         <section className='offer-section'>
             <div className='offer-content'>
-
                 <div className='offer-text-container'>
-                    <h2>Angebote</h2>
-                    <p>Wenn Sie noch unsicher sind, ob Sie bei mir richtig gelandet sind, dann empfehle ich Ihnen einen Blick auf folgende Leistungen zu werfen und sollte die richtige Kategorie dabei sein, dann schreiben Sie mir einfach. Wir finden dann zeitnahe einen Termin für ein Erstgespräch.</p>
+                    <h2>{t("pages.home.offer.headline")}</h2>
+                    <p>{t("pages.home.offer.subtext")}</p>
                 </div>
 
                 <div className='offers-container'>
                     <article className='offer-article offer1'>
-                        <h3 className='offer-headline'>Software</h3>
-                        <p className='offer-subtext'>Maßgeschneiderte Softwarelösungen für Ihre Kernprozesse.Standardsoftware stößt oft an Grenzen, wo Ihre echten Wettbewerbsvorteile beginnen. Ich entwickle individuelle Softwarelösungen, die sich exakt an Ihre bestehenden Arbeitsabläufe anpassen – nicht umgekehrt. Von der Automatisierung wiederkehrender Aufgaben bis hin zur vollständigen Digitalisierung lokaler Prozesse erhalten Sie eine performante, zukunftssichere und wartungsarme IT-Infrastruktur.</p>
+                        <h3 className='offer-headline'>{t("pages.home.offer.offer1.headline")}</h3>
+                        <p className='offer-subtext'>{t("pages.home.offer.offer1.subtext")}</p>
                     </article>
 
                     <article className='offer-article offer2'>
-                        <h3 className='offer-headline'>SPAs</h3>
-                        <p className='offer-subtext'>Ultraschnelle Webanwendungen mit nativer User Experience.Moderne Web-Applikationen müssen ohne spürbare Ladezeiten reagieren. Als Single Page Applications (SPAs) konzipiert, bieten meine Lösungen eine flüssige, intuitive Bedienung direkt im Browser – vergleichbar mit einer installierten Desktop-App. Ideal für komplexe Dashboards, interaktive Tools oder interne Verwaltungssysteme, bei denen maximale Effizienz und eine hervorragende Nutzererfahrung im Vordergrund stehen.</p>
+                        <h3 className='offer-headline'>{t("pages.home.offer.offer2.headline")}</h3>
+                        <p className='offer-subtext'>{t("pages.home.offer.offer2.subtext")}</p>
                     </article>
 
                     <article className='offer-article offer3'>
-                        <h3 className='offer-headline'>WebApps</h3>
-                        <p className='offer-subtext'>Plattformunabhängige Web-Apps für maximale Flexibilität.Erreichen Sie Ihre Nutzer und Mitarbeiter auf jedem Endgerät – ganz ohne App-Store-Zwang. Ich konzipiere und entwickle robuste Full-Stack-Webanwendungen, die im Browser laufen, aber die Leistungsfähigkeit klassischer Software bieten. Durch moderne Architekturen sind diese Web-Apps voll skalierbar, sicher verschlüsselt und lassen sich nahtlos in Ihre digitale Landschaft integrieren.</p>
+                        <h3 className='offer-headline'>{t("pages.home.offer.offer3.headline")}</h3>
+                        <p className='offer-subtext'>{t("pages.home.offer.offer3.subtext")}</p>
                     </article>
 
                     <article className='offer-article offer4'>
-                        <h3 className='offer-headline'>Datenmigration</h3>
-                        <p className='offer-subtext'>Sichere Datenintegration und verlustfreie Systemumzüge.Erfolgreiche Digitalisierung lebt von konsistenten Datenströmen. Ich sorge für die nahtlose Verknüpfung Ihrer Systeme über performante Schnittstellen (APIs) oder übernehme die komplette, strukturierte Migration Ihrer Altdaten in neue Systeme. Dabei stehen absolute Datensicherheit, Integrität und minimale Ausfallzeiten im Fokus, damit Ihre Prozesse auch während der Umstellung reibungslos weiterlaufen.</p>
+                        <h3 className='offer-headline'>{t("pages.home.offer.offer4.headline")}</h3>
+                        <p className='offer-subtext'>{t("pages.home.offer.offer4.subtext")}</p>
                     </article>
 
                     <article className='offer-article offer4'>
-                        <h3 className='offer-headline'>Beratung</h3>
-                        <p className='offer-subtext'>Strategische Technologieberatung und agile Begleitung.Vor dem ersten Code-Baustein steht die richtige Strategie. Ich analysiere Ihre bestehenden Prozesse, identifiziere Automatisierungspotenziale und berate Sie herstellerunabhängig zur optimalen Technologie-Architektur. Zudem begleite ich Ihr Unternehmen bei den ersten Schritten mit Scrum, um agile Entwicklungsmethoden nachhaltig in Ihren Teams zu verankern. So vermeiden Sie Fehlinvestitionen und schaffen eine zukunftssichere Basis für Ihr Wachstum.</p>
+                        <h3 className='offer-headline'>{t("pages.home.offer.offer5.headline")}</h3>
+                        <p className='offer-subtext'>{t("pages.home.offer.offer5.subtext")}</p>
                     </article>
                 </div>
-
             </div>
         </section>
     );

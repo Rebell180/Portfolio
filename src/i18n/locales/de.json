@@ -12,6 +12,7 @@
     },
     "nav": {
         "home": "Startseite",
+        "about": "Über mich",
         "projects": "Projekte",
         "contact": "Kontakt",
         "legal": "Impressum",
@@ -23,30 +24,82 @@
                 "sub1": "Moderne Webanwendungen für ihren digitalen Fingerabdruck.",
                 "sub2": "Ich entwickle maßgeschneiderte Software, Webanwendungen und digitale Lösungen, von der ersten Idee bis zum produktiven Einsatz."
             },
+            "about": {
+                "headline": "Über mich",
+                "part1": "Ich bin Marcel Buchmann (36) und Full Stack Software Engineer.",
+                "part2": "Seit 2018 bin ich als Softwareentwickler in unterschiedlichen Positionen zum Einsatz gekommen und habe über die Jahre viele Erfahrungen sammeln können. Zusammen mit meinem unstillbaren Wissensdurst, vereine ich einen breiten Wissensschatz. Unter parallelem Einsatz autonomer KI-Systeme konnte ich meinen Durchsatz und Erfolg um ein Vielfaches verbessern. Seit 2026 bin ich nun als selbstständiger Full Stack Software Engineer unterwegs und begleite Sie mit meiner Epertise auf Ihrem Weg der Digitalisierung. Anspruchsvolle Frontends, komplexe Backends, mehrfacher Wechsel des eigenen Stacks. Ich habe mich bisher noch jeder Herausforderung gestellt und Lösungen gefunden. Agile Entwicklung und Kundennähe sind für mich selbstverständlich. Gemeinsam mit gewissenvoller Arbeit liefere ich Ihnen qualitative Ergebnisse, die Ihren Erfolg maximieren.",
+                "part3": "Wenn Sie gerade auf der Suche nach einer Lösung sind, kontaktieren Sie mich einfach über das Kontaktformular.",
+                "info": "mehr Infos"
+            },
             "trust": {
                 "headline": "Zeit effizient nutzen",
                 "subtext": "Während der Zusammenarbeit mit mir durchlaufen wir gemeinsam mehrere Stufen des Entwicklungsprozesses, um Ihnen am Ende genau das Ergebnis zu liefern, welches Sie wirklich benötigen. Keine teuren Extras, keine negativen Überraschungen, klare und verfügbare Kommunikation. Auch in einer Zeit, in der Automatisierung und künstliche Intelligenz essentiell werden, ist es nach wie vor der Mensch, der Ihrer Fantasie Leben einhaucht. Ich möchte Ihnen dabei helfen, Ihre Ziele zu erreichen.",
                 "schedule": {
                     "step1": {
                         "headline": "Anforderungsanalyse",
-                        "subtext": "Wir setzen uns zusammen und schauen im ersten Schritt, was Sie sich vorgestellt haben und was Sie damit erreichen möchten."
+                        "subtext": "Wir setzen uns zusammen und schauen im ersten Schritt, was Sie sich vorgestellt haben und was Sie damit erreichen möchten.",
+                        "point1": "Wir sprechen über Ziele, Prozesse und Anforderungen.",
+                        "point2": "Ich verstehe zuerst Ihr Unternehmen, bevor wir Lösungen entwickeln"
                     },
                     "step2": {
                         "headline": "Planungsphase",
-                        "subtext": "Nach dem wir die Wünsche und Vorstellungen geordnet haben, beschäftigen wir uns mit den Umsetzungsmöglichkeiten, Technologien, Design Guide und mehr. Im Anschluss sollten wir gemeinsam einen klaren Fahrplan haben, um Ihr Ziel zu erreichen."
+                        "subtext": "Nach dem wir die Wünsche und Vorstellungen geordnet haben, beschäftigen wir uns mit den Umsetzungsmöglichkeiten, Technologien, Design Guide und mehr. Im Anschluss sollten wir gemeinsam einen klaren Fahrplan haben, um Ihr Ziel zu erreichen.",
+                        "point1": "Design",
+                        "point2": "Abläufe",
+                        "point3": "User Experience",
+                        "point4": "Technische Planung"
                     },
                     "step3": {
                         "headline": "Implementierungsphase",
-                        "subtext": "An diesem Punkt liefern Sie mir, sofern nciht anders vereinbart den Inhalt Ihres Projektes, während ich meinen Teil in der Entwicklung erfülle."
+                        "subtext": "An diesem Punkt liefern Sie mir, sofern nciht anders vereinbart den Inhalt Ihres Projektes, während ich meinen Teil in der Entwicklung erfülle.",
+                        "point1": "Zwischenstände",
+                        "point2": "Frühes Feedback",
+                        "point3": "Kurze Kommunikationswege"
                     },
                     "step4": {
                         "headline": "Review & Feedback",
-                        "subtext": "Wenn die Implementierung abgeschlossen ist, wird das Gesamtbild gemeinsam geprüft und wir reden über Ihre Zufriedenheit."
+                        "subtext": "Wenn die Implementierung abgeschlossen ist, wird das Gesamtbild gemeinsam geprüft und wir reden über Ihre Zufriedenheit.",
+                        "point1": "Zwei Feedback-Runden inklusive",
+                        "point2": "Zusätzliche Inhalte transparent nachverhandeln."
                     },
                     "step5": {
                         "headline": "Weitere Zusammenarbeit",
-                        "subtext": "Nach einer erfolgreichen Zusammenarbeit, sprechen wir über die Zukunft. Benötigen Sie langfristigen Support, Schulung oder haben Sie bereits die nächsten Pläne, welche Sie verwirklichen wollen? Lassen Sie uns sprechen."
+                        "subtext": "Nach einer erfolgreichen Zusammenarbeit, sprechen wir über die Zukunft. Benötigen Sie langfristigen Support, Schulung oder haben Sie bereits die nächsten Pläne, welche Sie verwirklichen wollen? Lassen Sie uns sprechen.",
+                        "point1": "Deployment",
+                        "point2": "Tests",
+                        "point3": "Abnahme",
+                        "point4": "Einweisung"
+                    },
+                    "step6": {
+                        "headline": "Weitere Zusammenarbeit",
+                        "subtext": "Nach einer erfolgreichen Zusammenarbeit, sprechen wir über die Zukunft. Benötigen Sie langfristigen Support, Schulung oder haben Sie bereits die nächsten Pläne, welche Sie verwirklichen wollen? Lassen Sie uns sprechen.",
+                        "point1": "Auch nach dem Projekt bleibe ich Ihr Ansprechpartner.",
+                        "point2": "Sprechen wir über Support-Lösungen."
                     }
+                }
+            },
+            "offer": {
+                "headline": "Angebote",
+                "subtext": "Wenn Sie noch unsicher sind, ob Sie bei mir richtig gelandet sind, dann empfehle ich Ihnen einen Blick auf folgende Leistungen zu werfen und sollte die richtige Kategorie dabei sein, dann schreiben Sie mir einfach. Wir finden dann zeitnahe einen Termin für ein Erstgespräch.",
+                "offer1": {
+                    "headline": "Software",
+                    "subtext": "Maßgeschneiderte Softwarelösungen für Ihre Kernprozesse.Standardsoftware stößt oft an Grenzen, wo Ihre echten Wettbewerbsvorteile beginnen. Ich entwickle individuelle Softwarelösungen, die sich exakt an Ihre bestehenden Arbeitsabläufe anpassen – nicht umgekehrt. Von der Automatisierung wiederkehrender Aufgaben bis hin zur vollständigen Digitalisierung lokaler Prozesse erhalten Sie eine performante, zukunftssichere und wartungsarme IT-Infrastruktur."
+                },
+                "offer2": {
+                    "headline": "SPAs",
+                    "subtext": "Ultraschnelle Webanwendungen mit nativer User Experience.Moderne Web-Applikationen müssen ohne spürbare Ladezeiten reagieren. Als Single Page Applications (SPAs) konzipiert, bieten meine Lösungen eine flüssige, intuitive Bedienung direkt im Browser – vergleichbar mit einer installierten Desktop-App. Ideal für komplexe Dashboards, interaktive Tools oder interne Verwaltungssysteme, bei denen maximale Effizienz und eine hervorragende Nutzererfahrung im Vordergrund stehen."
+                },
+                "offer3": {
+                    "headline": "WebApps",
+                    "subtext": "Plattformunabhängige Web-Apps für maximale Flexibilität.Erreichen Sie Ihre Nutzer und Mitarbeiter auf jedem Endgerät – ganz ohne App-Store-Zwang. Ich konzipiere und entwickle robuste Full-Stack-Webanwendungen, die im Browser laufen, aber die Leistungsfähigkeit klassischer Software bieten. Durch moderne Architekturen sind diese Web-Apps voll skalierbar, sicher verschlüsselt und lassen sich nahtlos in Ihre digitale Landschaft integrieren."
+                },
+                "offer4": {
+                    "headline": "Datenmigration",
+                    "subtext": "Sichere Datenintegration und verlustfreie Systemumzüge.Erfolgreiche Digitalisierung lebt von konsistenten Datenströmen. Ich sorge für die nahtlose Verknüpfung Ihrer Systeme über performante Schnittstellen (APIs) oder übernehme die komplette, strukturierte Migration Ihrer Altdaten in neue Systeme. Dabei stehen absolute Datensicherheit, Integrität und minimale Ausfallzeiten im Fokus, damit Ihre Prozesse auch während der Umstellung reibungslos weiterlaufen."
+                },
+                "offer5": {
+                    "headline": "Beratung",
+                    "subtext": "Strategische Technologieberatung und agile Begleitung.Vor dem ersten Code-Baustein steht die richtige Strategie. Ich analysiere Ihre bestehenden Prozesse, identifiziere Automatisierungspotenziale und berate Sie herstellerunabhängig zur optimalen Technologie-Architektur. Zudem begleite ich Ihr Unternehmen bei den ersten Schritten mit Scrum, um agile Entwicklungsmethoden nachhaltig in Ihren Teams zu verankern. So vermeiden Sie Fehlinvestitionen und schaffen eine zukunftssichere Basis für Ihr Wachstum."
                 }
             }
         }

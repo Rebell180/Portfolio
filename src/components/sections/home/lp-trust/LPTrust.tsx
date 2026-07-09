@@ -6,7 +6,7 @@ export default function LPTrust() {
 
     return (
         <section className='trust-section'>
-            <div className='trust-content'>
+            <div className='trust-content '>
                 <div className='trust-text-container'>
                     <h2>{t("pages.home.trust.headline")}</h2>
                     <p>{t("pages.home.trust.subtext")}</p>
@@ -18,8 +18,8 @@ export default function LPTrust() {
                                 <h3>{t("pages.home.trust.schedule.step1.headline")}</h3>
                                 <p>{t("pages.home.trust.schedule.step1.subtext")}</p>
                                 <ul className='list-item-point-list'>
-                                    <li className='list-item-point'>Wir sprechen über Ziele, Prozesse und Anforderungen.</li>
-                                    <li className='list-item-point'>Ich verstehe zuerst Ihr Unternehmen, bevor wir Lösungen entwickeln</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step1.point1")}</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step1.point2")}</li>
                                 </ul>
                             </div>
                         </li>
@@ -28,10 +28,10 @@ export default function LPTrust() {
                                 <h3>{t("pages.home.trust.schedule.step2.headline")}</h3>
                                 <p>{t("pages.home.trust.schedule.step2.subtext")}</p>
                                 <ul className='list-item-point-list'>
-                                    <li className='list-item-point'>Design</li>
-                                    <li className='list-item-point'>Abläufe</li>
-                                    <li className='list-item-point'>User Experience</li>
-                                    <li className='list-item-point'>Technische Planung</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step2.point1")}</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step2.point2")}</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step2.point3")}</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step2.point4")}</li>
                                 </ul>
                             </div>
                         </li>
@@ -40,9 +40,9 @@ export default function LPTrust() {
                                 <h3>{t("pages.home.trust.schedule.step3.headline")}</h3>
                                 <p>{t("pages.home.trust.schedule.step3.subtext")}</p>
                                 <ul className='list-item-point-list'>
-                                    <li className='list-item-point'>Zwischenstände</li>
-                                    <li className='list-item-point'>Frühes Feedback</li>
-                                    <li className='list-item-point'>Kurze Kommunikationswege</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step3.point1")}</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step3.point2")}</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step3.point3")}</li>
                                 </ul>
                             </div>
                         </li>
@@ -51,39 +51,33 @@ export default function LPTrust() {
                                 <h3>{t("pages.home.trust.schedule.step4.headline")}</h3>
                                 <p>{t("pages.home.trust.schedule.step4.subtext")}</p>
                                 <ul className='list-item-point-list'>
-                                    <li className='list-item-point'>Zwei Designkorrekturen sind bereits im Projektpreis enthalten.</li>
-                                    <li className='list-item-point'>Weitere Änderungswünsche oder neue Funktionen werden transparent abgestimmt.</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step4.point1")}</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step4.point2")}</li>
                                 </ul>
                             </div>
-                        </li>
-                        
-
+                        </li>                        
                         <li className='trust-schedule-list-item'>
                             <div>
                                 <h3>{t("pages.home.trust.schedule.step5.headline")}</h3>
                                 <p>{t("pages.home.trust.schedule.step5.subtext")}</p>
                                 <ul className='list-item-point-list'>
-                                    <li className='list-item-point'>Deployment</li>
-                                    <li className='list-item-point'>Tests</li>
-                                    <li className='list-item-point'>Abnahme</li>
-                                    <li className='list-item-point'>Einweisung</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step5.point1")}</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step5.point2")}</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step5.point3")}</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step5.point4")}</li>
                                 </ul>
                             </div>
                         </li>
-
-
                         <li className='trust-schedule-list-item'>
                             <div>
                                 <h3>{t("pages.home.trust.schedule.step6.headline")}</h3>
                                 <p>{t("pages.home.trust.schedule.step6.subtext")}</p>
                                 <ul className='list-item-point-list'>
-                                    <li className='list-item-point'>Auch nach dem Projekt bleibe ich Ihr Ansprechpartner.</li>
-                                    <li className='list-item-point'>Sprechen wir über Support-Lösungen.</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step6.point1")}</li>
+                                    <li className='list-item-point'>{t("pages.home.trust.schedule.step6.point2")}</li>
                                 </ul>
                             </div>
                         </li>
-
-
                     </ul>
                 </div>
             </div>

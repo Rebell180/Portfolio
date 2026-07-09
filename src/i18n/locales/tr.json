@@ -11,7 +11,8 @@
         "privacypolicy": "Gizlilik Politikası"
     },
     "nav": {
-        "home": "Ev",
+        "home": "Ev",        
+        "about": "Hakkımda",
         "projects": "Projeler",
         "contact": "temas etmek",
         "legal": "Künye",
@@ -23,30 +24,82 @@
                 "sub1": "Dijital ayak iziniz için modern web uygulamaları.",
                 "sub2": "İlk fikirden canlıya alma aşamasına kadar özel yazılımlar, web uygulamaları ve dijital çözümler geliştiriyorum."
             },
+            "about": {
+                "headline": "Hakkımda",
+                "part1": "Ben Marcel Buchmann (36), bir full-stack yazılım mühendisiyim.",
+                "part2": "2018'den bu yana çeşitli yazılım geliştirme rollerinde görev alarak kapsamlı bir deneyim kazandım. Bu pratik uzmanlığı, bitmek bilmeyen bir öğrenme tutkusuyla birleştiriyorum. İş akışımda otonom yapay zeka sistemlerinden yararlanarak hem üretkenliğimi hem de başarı oranlarımı önemli ölçüde artırdım. 2026 yılından beri bağımsız bir Full Stack Yazılım Mühendisi olarak çalışıyor; uzmanlığımı, müşterilerime dijital dönüşüm yolculuklarında rehberlik etmek için kullanıyorum. Gelişmiş arayüzlerden karmaşık arka uç sistemlerine ve çeşitli teknoloji yığınlarına uyum sağlamaya kadar, karşılaştığım her türlü zorluğun üstesinden başarıyla geldim. Çevik (Agile) geliştirme ve müşteri odaklı yaklaşım, benim için doğal bir çalışma biçimidir. Titiz bir çalışma anlayışıyla, başarınızı en üst düzeye çıkarmayı hedefleyen yüksek kaliteli sonuçlar sunuyorum.",
+                "part3": "Şu anda bir çözüm arıyorsanız, iletişim formu aracılığıyla benimle iletişime geçmeniz yeterlidir.",
+                "info": "Daha fazla bilgi"
+            },
             "trust": {
                 "headline": "Zamanı verimli kullanın.",
                 "subtext": "Benimle çalıştığınızda, gerçekten ihtiyaç duyduğunuz o tam sonucu elde etmek için geliştirme sürecinin çeşitli aşamalarını birlikte katederiz. Maliyetli ekstralar veya tatsız sürprizler yok; yalnızca açık ve erişilebilir bir iletişim var. Otomasyon ve yapay zekanın vazgeçilmez hale geldiği bir çağda bile, vizyonunuza hayat veren unsur hâlâ insan faktörüdür. Hedeflerinize ulaşmanıza yardımcı olmak istiyorum.",
                 "schedule": {
                     "step1": {
                         "headline": "Gereksinim analizi",
-                        "subtext": "Birlikte oturacağız ve ilk adım olarak, aklınızdakileri ve neler başarmak istediğinizi ele alacağız."
+                        "subtext": "Birlikte oturacağız ve ilk adım olarak, aklınızdakileri ve neler başarmak istediğinizi ele alacağız.",
+                        "point1": "Wir sprechen über Ziele, Prozesse und Anforderungen.",
+                        "point2": "Ich verstehe zuerst Ihr Unternehmen, bevor wir Lösungen entwickeln"
                     },
                     "step2": {
                         "headline": "Planlama aşaması",
-                        "subtext": "İsteklerinizi ve fikirlerinizi düzenledikten sonra; uygulama seçenekleri, teknolojiler, tasarım rehberi ve daha fazlası üzerinde duracağız. Sürecin sonunda, hedefinize ulaşmak adına birlikte net bir yol haritası oluşturmuş olacağız."
+                        "subtext": "İsteklerinizi ve fikirlerinizi düzenledikten sonra; uygulama seçenekleri, teknolojiler, tasarım rehberi ve daha fazlası üzerinde duracağız. Sürecin sonunda, hedefinize ulaşmak adına birlikte net bir yol haritası oluşturmuş olacağız.",
+                        "point1": "Design",
+                        "point2": "Abläufe",
+                        "point3": "User Experience",
+                        "point4": "Technische Planung"
                     },
                     "step3": {
                         "headline": "Uygulama aşaması",
-                        "subtext": "Bu aşamada, aksi kararlaştırılmadıkça, ben geliştirme sürecindeki üzerime düşen kısmı yürütürken siz projenizin içeriğini sağlarsınız."
+                        "subtext": "Bu aşamada, aksi kararlaştırılmadıkça, ben geliştirme sürecindeki üzerime düşen kısmı yürütürken siz projenizin içeriğini sağlarsınız.",
+                        "point1": "Zwischenstände",
+                        "point2": "Frühes Feedback",
+                        "point3": "Kurze Kommunikationswege"
                     },
                     "step4": {
                         "headline": "İnceleme ve Geri Bildirim",
-                        "subtext": "Uygulama tamamlandığında, genel tabloyu birlikte gözden geçirecek ve memnuniyetinizi değerlendireceğiz."
+                        "subtext": "Uygulama tamamlandığında, genel tabloyu birlikte gözden geçirecek ve memnuniyetinizi değerlendireceğiz.",
+                        "point1": "Zwei Feedback-Runden inklusive",
+                        "point2": "Zusätzliche Inhalte transparent nachverhandeln."
                     },
                     "step5": {
                         "headline": "Daha fazla iş birliği",
-                        "subtext": "Başarılı bir iş birliğinin ardından, gelin gelecekten bahsedelim. Uzun vadeli desteğe veya eğitime mi ihtiyacınız var, yoksa hayata geçirmek istediğiniz sonraki adımlara dair halihazırda planlarınız mı mevcut? Gelin, bunları konuşalım."
+                        "subtext": "Başarılı bir iş birliğinin ardından, gelin gelecekten bahsedelim. Uzun vadeli desteğe veya eğitime mi ihtiyacınız var, yoksa hayata geçirmek istediğiniz sonraki adımlara dair halihazırda planlarınız mı mevcut? Gelin, bunları konuşalım.",
+                        "point1": "Deployment",
+                        "point2": "Tests",
+                        "point3": "Abnahme",
+                        "point4": "Einweisung"
+                    },
+                    "step6": {
+                        "headline": "İnceleme ve Geri Bildirim",
+                        "subtext": "Uygulama tamamlandığında, genel tabloyu birlikte gözden geçirecek ve memnuniyetinizi değerlendireceğiz.",
+                        "point1": "Proje sonrasında da muhatabınız olmaya devam edeceğim.",
+                        "point2": "Destek çözümleri hakkında konuşalım."
                     }
+                }
+            },
+            "offer": {
+                "headline": "Teklifler",
+                "subtext": "Sizin için doğru kişi olup olmadığımdan hâlâ emin değilseniz, aşağıda listelenen hizmetlere göz atmanızı öneririm; uygun bir kategori bulursanız bana bir mesaj göndermeniz yeterli. Böylece, bir ön görüşme için hızlıca randevu ayarlayabiliriz.",
+                "offer1": {
+                    "headline": "yazılım",
+                    "subtext": "Temel iş süreçleriniz için özel yazılım çözümleri. Standart yazılımlar, genellikle tam da gerçek rekabet avantajlarınızın başladığı noktada yetersiz kalır. Mevcut iş akışlarınıza tam uyum sağlayan —veya tam tersi değil, süreçlerinize göre şekillenen— özel yazılım çözümleri geliştiriyorum. Tekrarlayan görevlerin otomatikleştirilmesinden yerel süreçlerin bütünüyle dijitalleştirilmesine kadar; yüksek performanslı, geleceğe hazır ve düşük bakım gerektiren bir BT altyapısına kavuşursunuz."
+                },
+                "offer2": {
+                    "headline": "SPAs",
+                    "subtext": "Yerel (native) uygulama deneyimi sunan, ultra hızlı web uygulamaları. Modern web uygulamaları, hissedilir bir yükleme süresi olmaksızın yanıt vermelidir. Tek Sayfalı Uygulamalar (SPA) olarak tasarlanan çözümlerim; tıpkı bilgisayara yüklenen bir masaüstü uygulaması gibi, doğrudan tarayıcı üzerinde akıcı ve sezgisel bir kullanıcı deneyimi sağlar. Bu çözümler; maksimum verimlilik ve üstün kullanıcı deneyiminin büyük önem taşıdığı karmaşık kontrol panelleri, etkileşimli araçlar veya kurum içi yönetim sistemleri için idealdir."
+                },
+                "offer3": {
+                    "headline": "WebApps",
+                    "subtext": "Maksimum esneklik sağlayan, platformdan bağımsız web uygulamaları. Uygulama mağazalarının kısıtlamalarına takılmadan, kullanıcılarınıza ve çalışanlarınıza diledikleri cihazdan ulaşın. Tarayıcı üzerinde çalışmasına rağmen geleneksel yazılımların performansını sunan, sağlam ve uçtan uca (full-stack) web uygulamaları tasarlayıp geliştiriyorum. Modern mimariler sayesinde bu web uygulamaları tam ölçeklenebilir, güvenli bir şekilde şifrelenmiş ve dijital ekosisteminize sorunsuz bir şekilde entegre edilmiş yapıdadır."
+                },
+                "offer4": {
+                    "headline": "Veri taşıma",
+                    "subtext": "Güvenli veri entegrasyonu ve kayıpsız sistem geçişleri. Başarılı bir dijitalleşme süreci, tutarlı veri akışlarına dayanır. Yüksek performanslı arayüzler (API'ler) aracılığıyla sistemlerinizin sorunsuz bir şekilde birbirine bağlanmasını sağlıyor ya da mevcut verilerinizin yeni sistemlere eksiksiz ve yapılandırılmış bir biçimde taşınmasını gerçekleştiriyorum. Odak noktam; mutlak veri güvenliği, veri bütünlüğü ve minimum kesinti süresidir; böylece geçiş süreci boyunca iş süreçlerinizin aksamadan devam etmesini garanti altına alıyorum."
+                },
+                "offer5": {
+                    "headline": "Tavsiye",
+                    "subtext": "Stratejik teknoloji danışmanlığı ve çevik (agile) süreç rehberliği. Doğru strateji, yazılan ilk kod satırından önce gelir. Mevcut süreçlerinizi analiz ediyor, otomasyon fırsatlarını belirliyor ve en uygun teknoloji mimarisi konusunda herhangi bir tedarikçiye bağlı kalmayan, tarafsız tavsiyeler sunuyorum. Ayrıca, çevik geliştirme yöntemlerini ekiplerinizde sağlam bir şekilde yerleştirmek amacıyla, Scrum ile atacağınız ilk adımlarda şirketinize rehberlik ediyorum. Bu sayede hatalı yatırımlardan kaçınabilir ve büyüme için geleceğe hazır bir temel oluşturabilirsiniz."
                 }
             }
         }
