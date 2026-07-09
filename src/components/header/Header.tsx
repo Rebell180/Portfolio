@@ -29,7 +29,7 @@ export function Header() {
                         <img src="assets/images/logo/mb-logo.png" alt="MBDev Logo" />
                         <div className="logo-text-container">
                             <p className='logo-head'>Dev</p>
-                            <p className='logo-sub'>Software • Web • App</p>
+                            <p className='logo-sub'>Software • Web • API</p>
                         </div>
                     </div>
                 </Link>
