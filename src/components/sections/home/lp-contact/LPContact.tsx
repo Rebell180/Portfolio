@@ -36,8 +36,10 @@ export const LPContact: React.FC = () => {
                     <form className='contact-form' onSubmit={onSubmit}>
                         <label className='contact-lbl' htmlFor="name">Name:</label>
                         <input className='contact-input' type="text" name="name" required />
+                        <p className='contact-error-msg'>* Dieses Feld darf nicht leer sein!</p>
                         <label className='contact-lbl' htmlFor="email">E-Mail:</label>
                         <input className='contact-input' type="email" name="email" required />
+                        <p className='contact-error-msg'>* Dieses Feld darf nicht leer sein!</p>
                         <label className='contact-lbl' htmlFor="message">Nachricht:</label>
                         <textarea className='contact-msg' name="message" required></textarea>
                         <button className='contact-btn' type="submit">Senden</button>

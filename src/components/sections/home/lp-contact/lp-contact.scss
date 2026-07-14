@@ -19,7 +19,7 @@
         content: "";
         position: absolute;
         inset: 0;
-        background-image: url("/assets/images/lphero/bg2.png");
+        // background-image: url("/assets/images/lphero/bg2.png");
         background-size: cover;
         background-position: center;
         z-index: 0;
@@ -35,7 +35,7 @@
         flex-direction: column;
         align-items: start;
         justify-content: center;
-        background-color: rgba(50, 50, 50, 0.4);
+        background-color: rgba(50, 50, 50, 0.1);
         margin: 7dvw 4dvw;
         border-radius: 16px;
         padding: 4rem 5dvw;
@@ -54,7 +54,7 @@
             padding-bottom: 4rem;
 
             h2 {
-                font-size: clamp(26px, 5dvw, 96px);
+                font-size: clamp(26px, 5dvw, 72px);
                 color: whitesmoke;
                 text-shadow: 0 0 8px rgba(0, 200, 255, 0.5);
             }
@@ -78,14 +78,14 @@
                 flex-direction: column;
                 align-items: start;
                 justify-content: center;
-                gap: 2rem;
+                gap: 1rem;
 
                 .contact-msg,
                 .contact-input {
                     width: 100%;
                     height: auto;
                     min-height: 4rem;
-                    background: transparent;
+                    background: rgba(18, 18, 18, 0.5);
                     border: 2px solid rgba(193, 160, 0, 0.5);
                     border-radius: 16px;
                     padding: 1.5rem 2rem;
@@ -95,17 +95,27 @@
                 }
 
                 .contact-input {
-                    max-width: 300px;;
+                    max-width: 300px;
+                    margin-bottom: 0;
                 }
 
                 .contact-msg {
                     height: auto;
-                    min-height: 300px;
+                    min-height: 200px;
+                    max-width: 100%;
+                    margin-bottom: 2rem;
                 }
 
                 .contact-lbl {
                     color: whitesmoke;
-                    font-size: 16px;
+                    font-size: clamp(16px, 2dvw ,20px);
+                }
+
+                .contact-error-msg {
+                    margin-bottom: 2rem;
+                    color: red;
+                    top: -0.5rem;
+                    left: 2rem;
                 }
 
                 .contact-btn {
